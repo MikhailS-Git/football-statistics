@@ -1,0 +1,15 @@
+.mainBody {
+    width: 100%;
+    flex-grow: 1;
+    flex-grow: 1;
+    padding: 25px;
+    background-color: #EFEFEF;
+}
+
+@media only screen and (max-width: 900px) {
+
+    .mainBody {
+        padding: 5px;
+    }
+
+}

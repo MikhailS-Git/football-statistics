@@ -1,0 +1,59 @@
+.sideMenu {
+    position: relative;
+    padding: 15px 0;
+    border-bottom: 0.8px solid #D8E0E5;
+}
+
+.nav-menu {
+    list-style: none;
+}
+
+.nav-title {
+    margin-bottom: 20px;
+}
+
+.menu-link {
+    display: flex;
+    align-items: center;
+    padding: 15px 0;
+    gap: 15px;
+    color: #6A6E71;
+}
+
+svg {
+    width: 19px;
+    height: 19px;
+}
+
+.active {
+    color: #050C42;
+    font-weight: 600;
+    border-right: 3px solid #050C42;
+}
+
+.active svg path {
+    fill: #050C42;
+    stroke: #050C42;
+    stroke-width: 0.35;
+}
+
+
+
+@media only screen and (max-width: 1279px) {
+
+    .nav-title {
+        text-align: center;
+    }
+
+    .link-text {
+        display: none;
+    }
+
+    .menu-link {
+        justify-content: center;
+    }
+
+    .club-name {
+        display: none;
+    }
+}

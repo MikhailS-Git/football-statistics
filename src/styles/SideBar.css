@@ -1,0 +1,29 @@
+.sideBar {
+    flex-basis: 20%;
+    font-size: 14px;
+    height: 100%;
+    padding: 0 25px;
+    background-color: #fff;
+    box-shadow: 0px 3.61062px 9.02655px rgba(0, 0, 0, 0.05);
+    z-index: 2;
+}
+
+.logo-box {
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 0.8px solid #D8E0E5;
+}
+
+.logo-box img {
+    max-width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .sideBar {
+        padding: 0 5px;
+    }
+
+}

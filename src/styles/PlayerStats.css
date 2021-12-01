@@ -1,0 +1,58 @@
+.playerStats {
+    flex-grow: 1;
+    margin-left: 50px;
+}
+
+.stats-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.stats-title {
+    max-width: 360px;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.player-load {
+    min-width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EC805B;
+    border-radius: 8px;
+}
+
+.player-load svg {
+    transform: scale(1.5);
+}
+
+
+@media only screen and (max-width: 1279px) {
+
+    .playerStats {
+        margin: 10px;
+    }
+
+    .stats-header {
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: center;
+    }
+
+    .stats-title {
+        flex-basis: 100%;
+    }
+
+    .player-load {
+        min-width: 30px;
+        height: 30px;
+    }
+
+    .player-load svg {
+        transform: scale(1);
+    }
+
+}

@@ -1,0 +1,60 @@
+.playerCard {
+    position: relative;
+    min-width: 250px;
+    height: 90px;
+    margin: 0 50px 0 auto;
+    border-radius: 8px;
+    box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.player-ind {
+    width: max-content;
+    padding: 8px 5px;
+    background-color: #6CDC9D;
+    color: #fff;
+    font-weight: 600;
+}
+
+.player-name, .player-flag {
+    margin-left: 30px;
+}
+
+.player-name {
+    padding: 5px 0;
+    font-weight: 600;
+}
+
+.player-role {
+    font-weight: 600;
+    color: #D0D8DF;
+}
+
+.player-flag img {
+    margin-left: 10px;
+}
+
+.player-number {
+    position: absolute;
+    top: 50%;
+    right: 15%;
+    transform: translateY(-50%);
+    color: #0003;
+    font-size: 100px;
+    font-weight: 900;
+    line-height: 90px;
+}
+
+.player-photo {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 85%;
+    width: auto;
+}
+
+@media only screen and (max-width: 1279px) {
+    .playerCard {
+        margin: 0 auto;
+    }
+}

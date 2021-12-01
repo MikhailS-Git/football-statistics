@@ -1,0 +1,52 @@
+.players {
+    display: block;
+    padding: 23px;
+    background-color: #D0D8DF;
+    border-radius: 15px;
+}
+
+.players-title {
+    margin-bottom: 15px;
+}
+
+.players-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.pc-player {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.pc-player label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.pc-player-name, .pc-player-indicator {
+    white-space: nowrap;
+    color: #6A6E71;
+}
+
+
+@media only screen and (max-width: 1279px) {
+    .players {
+        font-size: 11px;
+    }
+
+    .players-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .pc-player {
+        flex-basis: 20%;
+        gap: 10px;
+    }
+}

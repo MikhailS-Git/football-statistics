@@ -1,0 +1,21 @@
+.user {
+    margin-left: auto;
+    margin-right: 45px;
+}
+
+
+@media only screen and (max-width: 900px) {
+ 
+    .user {
+        margin: 0 auto;
+    }
+
+}
+
+@media only screen and (max-width: 550px) {
+ 
+    .user {
+        display: none;
+    }
+
+}

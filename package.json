@@ -1,0 +1,42 @@
+{
+  "name": "football-react",
+  "version": "1.0.0",
+  "description": "football analytics with react.js",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Mikhail Solovyev <solovyevmikhail@mail.ru>",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/plugin-transform-runtime": "^7.16.4",
+    "@babel/preset-env": "^7.16.0",
+    "@babel/preset-react": "^7.16.0",
+    "autoprefixer": "^10.4.0",
+    "babel-loader": "^8.2.3",
+    "css-loader": "^6.5.1",
+    "html-webpack-plugin": "^5.5.0",
+    "postcss-loader": "^6.2.1",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.62.1",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.4.0"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.16.3",
+    "@reduxjs/toolkit": "^1.6.2",
+    "chart.js": "^3.6.1",
+    "react": "^17.0.2",
+    "react-chartjs-2": "^4.0.0",
+    "react-dom": "^17.0.2",
+    "react-redux": "^7.2.6",
+    "react-scroll": "^1.8.4",
+    "redux": "^4.1.2"
+  }
+}

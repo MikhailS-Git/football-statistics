@@ -1,0 +1,20 @@
+.tableBody {
+    flex-grow: 1;
+    display: flex;
+    padding: 40px;
+    background-color: #fff;
+}
+
+@media only screen and (max-width: 1279px) {
+    .tableBody {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+
+    .tableBody {
+        padding: 10px;
+    }
+
+}

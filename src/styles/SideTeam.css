@@ -1,0 +1,57 @@
+.sideTeam {
+    padding: 15px 0 0;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #D8E0E5;
+}
+
+.sideTeam-title {
+    margin-bottom: 25px;
+    
+  
+}
+
+.sideTeam-club {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+.club-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.club-image img {
+    width: 90px;
+    height: auto;
+}
+
+.club-name {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.chose-another-fc {
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+}
+
+
+
+@media only screen and (max-width: 1279px) {
+
+    .sideTeam-title {
+        text-align: center;
+    }
+
+    .another-fc-text {
+        display: none;
+    }
+}

@@ -1,0 +1,40 @@
+.teamSelect {
+    background-color: #ECF0F3;
+    color: #050C42;
+    border-radius: 17px;
+    padding: 10px 25px;
+}
+
+.select-title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 7px;
+    font-weight: 600;
+}
+
+.select-item {
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #D8E0E5;
+    padding: 10px 0;
+}
+
+.fc-logo {
+    min-width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media only screen and (max-width: 1279px) {
+    .select-title span, .fc-name {
+        display: none;
+    }
+
+    .select-title, .select-item {
+        justify-content: center;
+    }
+}
